@@ -1,5 +1,5 @@
-XYZ.exe:big2.o main.o fact.o palindrome.o sum2.c
-	gcc -o XYZ.exe big2.o main.o fact.o palindrome.o sum2.c
+XYZ.exe:big2.o main.o fact.o 
+	gcc -o XYZ.exe big2.o main.o fact.o 
 
 big2.o:big2.c
 	gcc -c big2.c
