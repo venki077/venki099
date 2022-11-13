@@ -7,7 +7,3 @@ main.o:main.c
 	gcc -c  main.c
 fact.o:fact.c
 	gcc -c fact.c
-palindrome.o:palindrome.c 
-	gcc -c palindrome.c
-sum2.o:sum2.c
-	 gcc -c sum2.c
